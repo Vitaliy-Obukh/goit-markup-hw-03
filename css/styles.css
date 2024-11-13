@@ -12,8 +12,13 @@ body {
   padding-left: 0;
 }
 
-header {
+img {
+  display: block;
+}
+
+.display {
   background-color: white;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .container {
@@ -21,12 +26,13 @@ header {
   padding: 0 15px;
 }
 
-.nav-box {
+.container-header {
   display: flex;
-  justify-content: space-between;
+  width: 1158px;
 }
 
-.nav-box:last-child {
+.nav-box {
+  align-items: center;
 }
 
 .accent {
@@ -46,6 +52,7 @@ header {
   margin-top: 24px;
   margin-left: 156px;
   margin-bottom: 24px;
+  margin-right: 76px;
 }
 
 .navigation {
@@ -56,8 +63,6 @@ header {
   padding-left: 0;
   margin-left: 76px;
   flex-grow: 1;
-  margin-top: 24px;
-  margin-bottom: 24px;
 }
 
 .navigation-menu {
@@ -67,6 +72,7 @@ header {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .navigation-menu:hover,
@@ -116,9 +122,9 @@ header {
   font-size: 56px;
   line-height: 107%;
   letter-spacing: 0.02em;
-  width: 496px;
   padding-bottom: 48px;
   margin: 0 auto;
+  max-width: 496px;
 }
 
 .button {
@@ -133,7 +139,7 @@ header {
   cursor: pointer;
   border: none;
   border-radius: 4px;
-  width: 169px;
+  max-width: 169px;
   height: 56px;
   padding: 16px 32px;
   margin-top: 0;
@@ -180,9 +186,9 @@ header {
   font-size: 20px;
   line-height: 120%;
   color: #2e2f42;
-  text-align: left;
+  text-align: center;
   letter-spacing: 0.02em;
-  margin: 0;
+  margin-bottom: 8px;
 }
 
 .description {
@@ -190,10 +196,9 @@ header {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
-  text-align: left;
+  text-align: center;
   letter-spacing: 0.02em;
   margin: 0;
-  padding-top: 8px;
 }
 
 .section-foto {
@@ -202,11 +207,14 @@ header {
   padding-bottom: 120px;
 }
 
+.container-foto {
+  padding: 32px 0;
+}
+
 .list-foto {
   list-style-type: none;
   display: flex;
   gap: 24px;
-  margin-top: 72px;
   margin-bottom: 0;
   justify-content: center;
 }
@@ -215,6 +223,7 @@ header {
   background-color: #ffffff;
   width: calc(100% - 3 * 24) / 4;
   width: 264px;
+  border-radius: 0 0 4px 4px;
 }
 
 .title-section-foto {
@@ -226,7 +235,7 @@ header {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   display: block;
-  margin: 0;
+  margin-bottom: 72px;
 }
 
 .title-foto {
@@ -265,6 +274,7 @@ header {
   gap: 24px;
   margin: 0 auto;
   padding-left: 0;
+  row-gap: 48px;
 }
 
 .title-portfolio {
