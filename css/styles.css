@@ -252,8 +252,19 @@ header {
   margin-bottom: 32px;
 }
 
-.section-portfolio > ul {
+.section-portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.list-portfolio {
   list-style-type: none;
+  display: flex;
+  width: 1128px;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin: 0 auto;
+  padding-left: 0;
 }
 
 .title-portfolio {
@@ -264,6 +275,8 @@ header {
   color: #2e2f42;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-top: 0;
+  margin-bottom: 72px;
 }
 
 .title-foto-portfolio {
@@ -272,6 +285,9 @@ header {
   line-height: 120%;
   color: #2e2f42;
   letter-spacing: 0.02em;
+  margin-top: 32px;
+  margin-bottom: 0;
+  margin-left: 16px;
 }
 
 .text-prtfo {
@@ -280,10 +296,16 @@ header {
   line-height: 150%;
   color: #434455;
   letter-spacing: 0.02em;
+  margin-top: 8px;
+  margin-bottom: 32px;
+  margin-left: 16px;
 }
 
 .section-footer {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 156px;
 }
 
 .logo-footer {
@@ -304,8 +326,12 @@ header {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
+  width: 264px;
+  margin-top: 16px;
+  margin-bottom: 0;
 }
 
 .accent-ftr {
   color: #f4f4fd;
+  margin: 0;
 }
