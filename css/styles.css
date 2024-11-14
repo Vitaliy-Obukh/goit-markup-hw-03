@@ -24,10 +24,10 @@ img {
 .container {
   margin: 0 auto;
   padding: 0 15px;
+  max-width: 1158px;
 }
 
 .container-header {
-  width: 1158px;
   display: flex;
 }
 
@@ -320,7 +320,7 @@ img {
 
 .section-footer {
   background-color: #2e2f42;
-  padding: 100px 0 100px 156px;
+  padding: 100px 0;
 }
 
 .logo-footer {
