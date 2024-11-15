@@ -231,7 +231,6 @@ img {
 .list-fone {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
-  max-width: 264px;
   width: calc((100% - 72px) / 4);
 }
 
