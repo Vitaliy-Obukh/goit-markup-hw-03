@@ -230,7 +230,7 @@ img {
 
 .list-fone {
   background-color: #ffffff;
-  width: calc((100% - 3 * 24px)) / 4;
+  width: calc((100% - 3 * 24px) / 4);
   width: 264px;
   border-radius: 0 0 4px 4px;
 }
