@@ -71,6 +71,7 @@ img {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .navigation-menu:hover,
